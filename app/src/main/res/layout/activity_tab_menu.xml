@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/page_back_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_fifty"
+        android:background="@android:color/white"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/menu_back_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingBottom="@dimen/dp_ten"
+            android:paddingLeft="@dimen/dp_twenty"
+            android:paddingRight="@dimen/dp_fifteen"
+            android:paddingTop="@dimen/dp_ten"
+            android:src="@mipmap/back_gray" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/collect_menu"
+            android:textColor="@color/text_blue"
+            android:textSize="@dimen/sp_eighteen" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_one"
+        android:background="@color/line_color" />
+
+    <com.takeout.client.view.CategoryTabStrip
+        android:id="@+id/category_strip"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/top_category_height"
+        android:background="@android:color/white"
+        android:clipToPadding="false"
+        android:paddingLeft="3.0dip"
+        android:paddingRight="6.0dip" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_one"
+        android:background="@color/activity_bg_color" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/menu_viewPager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dp_thirty"
+            android:layout_marginBottom="@dimen/dp_fifty"
+            android:layout_gravity="bottom|right">
+            <ImageView
+                android:id="@+id/menu_car_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/shopcar"/>
+        </FrameLayout>
+
+    </FrameLayout>
+</LinearLayout>

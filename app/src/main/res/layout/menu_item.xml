@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menu_item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_forty_five">
+
+    <TextView
+        android:id="@+id/menu_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_fifteen"
+        android:layout_gravity="center_vertical"
+        android:textSize="@dimen/sp_seventeen"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/menu_item_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/dp_ten"
+        android:layout_gravity="center_vertical|right"
+        android:textSize="@dimen/sp_fourteen"
+        android:textColor="@color/text_drark_gray"
+        android:text="大杯20 中杯15 小杯10"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_one"
+        android:layout_gravity="bottom"
+        android:background="@color/activity_bg_color"/>
+
+</FrameLayout>

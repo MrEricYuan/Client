@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_two"
+        android:layout_marginRight="@dimen/dp_two"
+        android:layout_marginTop="@dimen/dp_hundred_five">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp_ten"
+            android:background="@drawable/dialogs_bg"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/dp_ten"
+            android:paddingLeft="@dimen/dp_thirty_five"
+            android:paddingRight="@dimen/dp_thirty_five">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/dp_forty"
+                android:layout_marginLeft="@dimen/dp_eight"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sign_out_phone"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp_eighteen" />
+
+                <TextView
+                    android:id="@+id/sign_out_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_forty"
+                    android:textColor="@color/text_drark_gray"
+                    android:textSize="@dimen/sp_eighteen" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/dp_thirty"
+                android:layout_marginLeft="@dimen/dp_eight"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sign_out_name"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp_eighteen" />
+
+                <TextView
+                    android:id="@+id/sign_out_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_forty"
+                    android:textColor="@color/text_drark_gray"
+                    android:textSize="@dimen/sp_eighteen" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/sign_out_btn"
+                android:layout_width="@dimen/dp_hundred"
+                android:layout_height="@dimen/dp_thirty_three"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/dp_thirty"
+                android:background="@drawable/btn_blue_bg"
+                android:text="@string/sign_out"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/sp_sixteen" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/sign_out_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:src="@mipmap/close_gray" />
+
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_fifty">
+
+    <TextView
+        android:id="@+id/menu_detail_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:paddingTop="@dimen/dp_eight"
+        android:paddingBottom="@dimen/dp_five"
+        android:text="款式"
+        android:textSize="@dimen/sp_sixteen"
+        android:textColor="@color/text_blue" />
+
+</LinearLayout>

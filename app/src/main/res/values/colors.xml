@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="progress_color1">#01beff</color>
+    <color name="progress_color2">#8deeee</color>
+    <color name="progress_color3">#B0E2FF</color>
+    <color name="progress_color4">#efffff</color>
+    <color name="text_blue">#2fcaff</color>
+    <color name="text_gray">#BEBEBE</color>
+    <color name="text_black">#acacac</color>
+    <color name="text_drark_black">#222222</color>
+    <color name="text_drark_gray">#B3B3B3</color>
+    <color name="search_dialog_bg">#88ADADAD</color>
+    <color name="lines">#E5E5E5</color>
+    <!--导航栏色彩-->
+    <color name="activity_bg_color">#fffafafa</color>
+    <color name="top_category_bar_background">#ffeeeeee</color>
+    <color name="divider">#ffdddddd</color>
+    <color name="category_tab_text">#ff707070</color>
+    <color name="category_tab_text_dark">#fffafafa</color>
+    <color name="category_tab_highlight_text">#01beff</color>
+    <color name="category_tab_highlight_text_dark">#ffd43d3d</color>
+    <!-- <color name="category_tab_highlight_bg">#ffd43d3d</color> -->
+    <color name="category_tab_highlight_dark_bg">#fffafafa</color>
+    <!--字體顏色-->
+    <color name="black">#000000</color>
+    <color name="blacks">#5c5d5b</color>
+    <color name="black_one">#686868</color>
+    <color name="black_two">#878787</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#FF4500</color>
+    <color name="line_color">#C2C2C2</color>
+    <color name="gray_color1">#CCCCCC</color>
+    <color name="transcolor">#00000000</color>
+    <color name="noneed">#666666</color>
+</resources>

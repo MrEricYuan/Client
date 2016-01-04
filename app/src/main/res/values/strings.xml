@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">SAMENU</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- 提示 -->
+    <string name="no_network">網絡不可用，請檢查網絡設置</string>
+    <string name="phone_is_null">註冊電話不能為空</string>
+    <string name="phone_is_illegal">請輸入正確的手機號碼</string>
+    <string name="pwd_is_null">密碼不能為空</string>
+    <string name="repwd_is_null">確認密碼不能為空</string>
+    <string name="pwd_is_inconsistent">兩次輸入的密碼不一致</string>
+    <string name="pwd_is_illegal">密碼格式不正確，請輸入6-18位數字或字母</string>
+    <string name="family_name_is_null">姓氏不能為空</string>
+    <string name="name_is_null">名稱不能為空</string>
+    <string name="search_is_null">搜索詞不能為空</string>
+    <string name="menu_detail_num_hint">數量不能少於1</string>
+    <string name="menu_detail_join_hint">加入成功</string>
+
+    <!-- 主页面 -->
+    <string name="search">搜尋</string>
+    <string name="main_tab_collect">收藏</string>
+    <string name="main_tab_order">訂單</string>
+    <string name="main_tab_search">搜尋</string>
+    <string name="main_tab_user">帳戶</string>
+
+    <!--登入/註冊 -->
+    <string name="register_phone_hint">註冊電話</string>
+    <string name="register_pwd_hint">密碼</string>
+    <string name="register">註冊</string>
+    <string name="sign_in">登入</string>
+    <string name="sign_out_phone">電話</string>
+    <string name="sign_out_name">稱呼</string>
+    <string name="sign_out">登出</string>
+    <string name="register_repwd_hint">再次輸入</string>
+    <string name="register_family_name">姓氏</string>
+    <string name="register_name">名稱</string>
+
+    <!-- 收藏 -->
+    <string name="collect_shop_information">店家資訊></string>
+    <string name="collect_menu">MENU</string>
+    <!-- menu -->
+    <string name="menu_num">數量</string>
+    <string name="add">加入</string>
+
+    <!--店鋪信息-->
+    <string name="settings_id">ID</string>
+    <string name="settings_addr">地址</string>
+    <string name="settings_link">聯絡電話</string>
+    <string name="settings_onTime">營業時間</string>
+    <string name="settings_web">網站</string>
+    <string name="settings_remark">備註</string>
+    <string name="settings_card">名片訊息</string>
+    <!--店铺分类-->
+    <string name="category_all">吐司</string>
+    <string name="category_all_my">飲料</string>
+    <string name="category_society">蛋餅</string>
+    <string name="category_subscribe">漢堡</string>
+    <string name="category_video">焗烤燴飯</string>
+    <string name="category_health">乾鍋烤魚</string>
+    <string name="category_sports">川鄉味道</string>
+    <string name="category_tech">火鍋</string>
+    <string name="category_car">冒菜</string>
+    <string name="category_entertainment">菜館</string>
+    <string name="category_finance">麵食</string>
+    <string name="category_military">早餐</string>
+    <string name="category_world">肯德基</string>
+    <string name="category_hot">麥當勞</string>
+    <string name="category_positive">正能量</string>
+    <string name="category_essay_joke">段子</string>
+    <string name="category_image_funny">趣图</string>
+    <string name="category_image_ppmm">美女</string>
+    <string name="category_movie">电影</string>
+    <string name="category_digital">数码</string>
+    <string name="category_news_fashion">时尚</string>
+    <string name="category_rumor">辟谣</string>
+    <string name="category_marvel">奇葩</string>
+    <string name="category_news_game">游戏</string>
+    <string name="category_news_travel">旅游</string>
+    <string name="category_news_baby">育儿</string>
+    <string name="category_fitness">减肥</string>
+    <string name="category_news_regimen">养生</string>
+    <string name="category_news_food">美食</string>
+    <string name="category_government">政务</string>
+    <string name="category_news_history">历史</string>
+    <string name="category_news_discovery">探索</string>
+    <string name="category_news_story">故事</string>
+    <string name="category_news_essay">美文</string>
+    <string name="category_emotion">情感</string>
+    <string name="category_essay_saying">语录</string>
+    <string name="category_image_wonderful">美图</string>
+    <string name="category_news_house">家居</string>
+    <string name="category_news_home">房产</string>
+    <string name="category_funny">搞笑</string>
+    <string name="category_news_astrology">星座</string>
+    <string name="category_news_culture">文化</string>
+    <string name="category_graduate">毕业生</string>
+</resources>
