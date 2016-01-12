@@ -6,6 +6,7 @@
     <color name="progress_color4">#efffff</color>
     <color name="text_blue">#2fcaff</color>
     <color name="text_gray">#BEBEBE</color>
+    <color name="line_gray">#E0F0F0</color>
     <color name="text_black">#acacac</color>
     <color name="text_drark_black">#222222</color>
     <color name="text_drark_gray">#B3B3B3</color>

@@ -2,9 +2,13 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="@dimen/dp_two_hundred_tens"
-    android:paddingLeft="@dimen/dp_nineteen"
-    android:paddingRight="@dimen/dp_nineteen"
-    android:paddingTop="@dimen/dp_eighteen">
+    android:paddingLeft="@dimen/dp_eight"
+    android:paddingRight="@dimen/dp_eight"
+    android:background="@drawable/shoadow_bg"
+    android:layout_marginTop="@dimen/dp_eighteen"
+    android:layout_marginLeft="@dimen/dp_ten"
+    android:layout_marginRight="@dimen/dp_ten"
+    android:paddingBottom="@dimen/dp_eight">
 
     <com.takeout.client.view.RoundCornerImageView
         android:id="@+id/collect_item_bg"
